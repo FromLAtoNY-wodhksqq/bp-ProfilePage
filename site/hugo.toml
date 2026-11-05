@@ -1,5 +1,5 @@
 baseurl = "https://devcows.github.io/hugo-universal-theme/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
-title = "Universal"
+title = "jaewa__n"
 
 
 languageCode = "ko-KR"
@@ -453,8 +453,8 @@ pluralizelisttitles = false
 
     dropdown_mouse_over = false
 
-    disabled_logo = false
-    logo_text = "Universal"
+    disabled_logo = true
+    logo_text = "jaewa__n"
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
