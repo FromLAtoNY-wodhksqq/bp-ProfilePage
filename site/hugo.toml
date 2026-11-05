@@ -2,9 +2,9 @@ baseurl = "https://devcows.github.io/hugo-universal-theme/" # Configure URL. if 
 title = "Universal"
 
 
-languageCode = "en-us"
+languageCode = "ko-KR"
 # Site language. Available translations in the theme's `/i18n` directory.
-defaultContentLanguage = "en"
+defaultContentLanguage = "ko"
 
 # number of words of summarized post content (default 70)
 summaryLength = 70
