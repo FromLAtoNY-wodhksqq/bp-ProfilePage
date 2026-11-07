@@ -1,22 +1,27 @@
 [
   {
     "name": "KOSA NVIDIA AI agent 과정",
-    "description": "KOSA NVIDIA AI agent 과정 수강."
+    "description": "KOSA NVIDIA AI agent 과정 수강.",
+    "url": "/blog/kosa-nvidia-ai-agent/"
   },
   {
     "name": "호남권 LLM 해커톤",
-    "description": "호남권 LLM 해커톤 수상."
+    "description": "호남권 LLM 해커톤 수상.",
+    "url": "/blog/llm-hackathon/"
   },
   {
     "name": "미래에셋 AI 페스티벌",
-    "description": "미래에셋 AI 페스티벌 참가."
+    "description": "미래에셋 AI 페스티벌 참가.",
+    "url": "/blog/mirae-asset-ai-festival/"
   },
   {
     "name": "Trail 개발",
-    "description": "본인 적성에 맞는 대학 전공을 매칭하는 프로그램 ‘Trail’ 개발."
+    "description": "본인 적성에 맞는 대학 전공을 매칭하는 프로그램 ‘Trail’ 개발.",
+    "url": "/blog/trail/"
   },
   {
     "name": "MacsLab 학부 연구생",
-    "description": "MacsLab 학부 연구생 활동."
+    "description": "MacsLab 학부 연구생 활동.",
+    "url": "/blog/macslab/"
   }
 ]

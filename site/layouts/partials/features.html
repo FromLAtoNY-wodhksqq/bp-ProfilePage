@@ -11,7 +11,7 @@
       {{ end }}
       <div class="col-sm-6">
         <article class="box-simple">
-          <h3>{{ $activity.name }}</h3>
+          <h3>{{ with $activity.url }}<a href="{{ . | relURL }}">{{ $activity.name }}</a>{{ else }}{{ $activity.name }}{{ end }}</h3>
           <p>{{ $activity.description }}</p>
         </article>
       </div>
