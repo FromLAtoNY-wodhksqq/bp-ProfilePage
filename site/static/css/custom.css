@@ -139,3 +139,8 @@
         bottom: 12px;
     }
 }
+
+/* 404 주제목의 원본 크기와 굵기는 유지합니다. */
+#error-page h1.h3 {
+    font-weight: 700;
+}
