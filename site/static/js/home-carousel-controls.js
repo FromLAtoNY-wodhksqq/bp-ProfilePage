@@ -21,6 +21,37 @@
             $button.text(paused ? '자동 재생 시작' : '자동 재생 멈춤');
         }
 
+        function syncSlideButtons() {
+            $slider.find('.owl-page').each(function (index) {
+                var title = $slider.find('.item h1').eq(index).text().trim();
+                $(this).attr({
+                    role: 'button',
+                    tabindex: '0',
+                    'aria-label': (index + 1) + '번 슬라이드: ' + title,
+                    'aria-controls': 'home-slides',
+                    'aria-pressed': $(this).hasClass('active') ? 'true' : 'false'
+                });
+            });
+        }
+
+        // Owl rebuilds pagination after a resize, so restore names and states then too.
+        var afterAction = carousel.options.afterAction;
+        carousel.options.afterAction = function () {
+            if (typeof afterAction === 'function') afterAction.apply(this, arguments);
+            syncSlideButtons();
+        };
+        syncSlideButtons();
+        $slider.on('keydown', '.owl-page', function (event) {
+            if (event.key !== 'Enter' && event.key !== ' ' && event.key !== 'Spacebar') return;
+            event.preventDefault();
+            setPaused(true);
+            carousel.goTo($slider.find('.owl-page').index(this));
+        });
+        $slider.on('mouseup touchend', '.owl-page', function () {
+            setPaused(true);
+            syncSlideButtons();
+        });
+
         setPaused(paused || motion.matches);
         $button.parent().prop('hidden', false);
         $button.on('click', function () {

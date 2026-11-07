@@ -118,3 +118,24 @@
         padding-bottom: 112px;
     }
 }
+
+/* 원본 점 표시를 유지하면서 선택 영역과 키보드 초점을 확보합니다. */
+.home-carousel .owl-controls .owl-pagination .owl-page {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+}
+
+.home-carousel .owl-page:focus-visible {
+    outline: 3px solid #fff;
+    outline-offset: -4px;
+    border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+    .home-carousel .owl-controls {
+        bottom: 12px;
+    }
+}
