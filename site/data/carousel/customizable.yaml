@@ -1,9 +1,12 @@
 weight: 4
-title: "Easy to customize"
+title: "대표 활동"
 description: >
   <ul class="list-style-none">
-    <li>7 preprepared colour variations.</li>
-    <li>Easily to change fonts</li>
+    <li>KOSA NVIDIA AI agent 과정 수강</li>
+    <li>호남권 LLM 해커톤 수상</li>
+    <li>미래에셋 AI 페스티벌 참가</li>
+    <li>대학 전공 매칭 프로그램 Trail 개발</li>
+    <li>MacsLab 학부 연구생</li>
   </ul>
 image: "img/carousel/template-easy-code.png"
-href: "https://devcows.github.io/hugo-universal-theme/"
+href: "#activities"
