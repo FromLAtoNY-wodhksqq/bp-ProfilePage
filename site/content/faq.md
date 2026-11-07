@@ -1,5 +1,5 @@
 +++
-title = "소개"
+title = "Profile"
 description = "최재완의 자기소개, 개발과 AI agent에 관심을 갖게 된 이유, 사용 기술과 활동을 소개합니다."
 type = "page"
 keywords = ["최재완", "jaewa__n", "개발", "AI agent"]

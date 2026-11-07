@@ -1,0 +1,116 @@
+- id: home
+  translation: "Home"
+
+- id: templateBy
+  translation: "템플릿"
+
+- id: portedBy
+  translation: "Hugo 이식"
+
+- id: contactGoTo
+  translation: "Contact 보기"
+
+- id: contactAddrTitle
+  translation: "온라인 프로필"
+
+- id: contactTitle
+  translation: "Contact"
+
+- id: contactForm
+  translation: "문의"
+
+- id: contactName
+  translation: "이름"
+
+- id: contactMail
+  translation: "이메일"
+
+- id: contactMessage
+  translation: "내용"
+
+- id: contactSend
+  translation: "보내기"
+
+- id: navHome
+  translation: "홈으로 이동"
+
+- id: navToggle
+  translation: "메뉴 열기 또는 닫기"
+
+- id: categoriesTitle
+  translation: "분류"
+
+- id: searchTitle
+  translation: "검색"
+
+- id: tagsTitle
+  translation: "태그"
+
+- id: continueReading
+  translation: "자세히 보기"
+
+- id: readMore
+  translation: "읽기"
+
+- id: authorBy
+  translation: "작성자"
+
+- id: recentPosts
+  translation: "최근 활동"
+
+- id: aboutUs
+  translation: "Profile"
+
+- id: newer
+  translation: "이전 페이지"
+
+- id: older
+  translation: "다음 페이지"
+
+- id: publishedOn
+  translation: "작성일"
+
+- id: 404Error
+  translation: "404: 페이지를 찾을 수 없습니다"
+
+- id: 404Message
+  translation: "요청한 페이지를 찾을 수 없습니다."
+
+- id: 404NavHome
+  translation: "Home으로 돌아가기"
+
+- id: January
+  translation: "1월"
+
+- id: February
+  translation: "2월"
+
+- id: March
+  translation: "3월"
+
+- id: April
+  translation: "4월"
+
+- id: May
+  translation: "5월"
+
+- id: June
+  translation: "6월"
+
+- id: July
+  translation: "7월"
+
+- id: August
+  translation: "8월"
+
+- id: September
+  translation: "9월"
+
+- id: October
+  translation: "10월"
+
+- id: November
+  translation: "11월"
+
+- id: December
+  translation: "12월"
