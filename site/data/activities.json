@@ -14,5 +14,9 @@
   {
     "name": "Trail 개발",
     "description": "본인 적성에 맞는 대학 전공을 매칭하는 프로그램 ‘Trail’ 개발."
+  },
+  {
+    "name": "MacsLab 학부 연구생",
+    "description": "MacsLab 학부 연구생 활동."
   }
 ]
