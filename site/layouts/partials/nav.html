@@ -135,7 +135,7 @@
                     </li>
                   {{ else }}
                   <li class="dropdown {{ $active }}">
-                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    <a href="{{ .URL }}"{{ if eq $current.RelPermalink (.URL | relURL) }} aria-current="page"{{ end }}>{{ .Name }}</a>
                   </li>
                   {{ end }}
                   {{ end }}
