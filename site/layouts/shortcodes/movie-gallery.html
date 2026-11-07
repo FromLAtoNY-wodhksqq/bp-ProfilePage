@@ -1,0 +1,10 @@
+<div class="row">
+  {{ range .Page.Params.movies }}
+  <div class="col-sm-4">
+    <figure class="hobby-movie">
+      <img src="{{ .image | relURL }}" alt="{{ .title }} 소개 이미지" class="img-responsive" loading="lazy">
+      <figcaption>{{ .title }}</figcaption>
+    </figure>
+  </div>
+  {{ end }}
+</div>

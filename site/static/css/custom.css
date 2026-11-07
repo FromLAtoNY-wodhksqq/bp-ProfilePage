@@ -157,3 +157,20 @@
 #error-page h1.h3 {
     font-weight: 700;
 }
+
+.hobby-movie {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.hobby-movie img {
+    max-height: 360px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+.hobby-movie figcaption {
+    margin-top: 12px;
+    font-weight: 700;
+}
