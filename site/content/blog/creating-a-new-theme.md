@@ -6,7 +6,7 @@ type = "blog"
 weight = 4
 url = "/blog/trail/"
 categories = ["개발"]
-banner = "img/banners/banner-1.jpg"
+banner = "img/activities/trail-start-screen.png"
 +++
 
 ## 진행 상태와 역할
@@ -38,5 +38,11 @@ TRAIL의 Agent는 현재까지 수집된 근거(Evidence)의 상태에 따라 �
 LLM은 상황과 앞선 흐름에 맞는 자연스러운 질문 표현에 강하지만, 같은 답변을 항상 동일하게 판정하거나 판정 근거를 재현하는 용도로는 적합하지 않다고 판단했습니다.
 
 그래서 LLM은 질문 생성에만 사용하고, Trait Evidence 계산과 질문 종료, 전공 추천은 검수된 Mapping과 규칙 기반 엔진이 담당하도록 구성했습니다. 이를 통해 결과의 일관성, 설명 가능성, 재현성을 확보하고자 했습니다.
+
+## 활동 이미지
+
+![TRAIL 시작 화면: 좋아하는 이야기를 따라가면 진로가 보이기 시작해요](../../img/activities/trail-start-screen.png)
+
+Trail의 시작 화면입니다. 서비스 소개와 질문 시작 버튼이 표시됩니다.
 
 [활동 목록으로 돌아가기](../)
