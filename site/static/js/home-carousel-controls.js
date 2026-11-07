@@ -21,7 +21,11 @@
             $button.text(paused ? '자동 재생 시작' : '자동 재생 멈춤');
         }
 
-        function syncSlideButtons() {
+        function syncSlideAccessibility() {
+            $slider.find('.owl-item').each(function (index) {
+                var active = index === carousel.currentItem;
+                $(this).attr('aria-hidden', active ? 'false' : 'true').prop('inert', !active);
+            });
             $slider.find('.owl-page').each(function (index) {
                 var title = $slider.find('.item h1').eq(index).text().trim();
                 $(this).attr({
@@ -38,9 +42,13 @@
         var afterAction = carousel.options.afterAction;
         carousel.options.afterAction = function () {
             if (typeof afterAction === 'function') afterAction.apply(this, arguments);
-            syncSlideButtons();
+            syncSlideAccessibility();
         };
-        syncSlideButtons();
+        syncSlideAccessibility();
+        // Keep a focused slide link visible until the visitor chooses to resume.
+        $slider.on('focusin', '.owl-item', function () {
+            setPaused(true);
+        });
         $slider.on('keydown', '.owl-page', function (event) {
             if (event.key !== 'Enter' && event.key !== ' ' && event.key !== 'Spacebar') return;
             event.preventDefault();
@@ -49,7 +57,7 @@
         });
         $slider.on('mouseup touchend', '.owl-page', function () {
             setPaused(true);
-            syncSlideButtons();
+            syncSlideAccessibility();
         });
 
         setPaused(paused || motion.matches);
