@@ -106,7 +106,7 @@ pluralizelisttitles = false
     contact_url = "/contact"
     address = """<p class="text-uppercase"><strong>최재완 · jaewa__n</strong>
         <br>개발 · AI agent
-        <br><a href="https://github.com/FromLAtoNY-wodhksqq">GitHub 프로필 보기</a>
+        <br><a href="https://github.com/JaewanAppleacc">GitHub 프로필 보기</a>
       </p>
       """
 
