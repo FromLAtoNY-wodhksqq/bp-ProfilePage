@@ -9,6 +9,10 @@ categories = ["개발"]
 banner = "img/banners/banner-1.jpg"
 +++
 
+## 진행 상태와 역할
+
+개발이 완료된 팀 프로젝트입니다. 팀 작업 중 저는 agent 개발을 담당했습니다.
+
 ## Trail은 어떤 프로그램인가요?
 
 Trail은 본인 적성에 맞는 대학 전공을 매칭하는 프로그램입니다.

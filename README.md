@@ -1,3 +1,42 @@
+# jaewa__n 개인 소개 사이트
+
+- 공개 사이트: https://fromlatony-wodhksqq.github.io/bp-ProfilePage/
+- 저장소: https://github.com/FromLAtoNY-wodhksqq/bp-ProfilePage
+- 테마: DevCows Universal. 아래 원본 안내와 저장소의 LICENSE, 화면의 테마 출처 고지를 유지합니다.
+
+## 설치와 빌드
+
+Python 3.12와 Hugo Extended 0.167.0을 사용합니다. Python은 https://www.python.org/downloads/ 에서 설치하고, Hugo는 https://github.com/gohugoio/hugo/releases/tag/v0.167.0 에서 운영체제에 맞는 Extended 파일을 받아 압축 해제한 실행 파일을 PATH에 추가합니다. Git도 설치되어 있어야 합니다. `python3 --version`과 `hugo version`으로 버전을 확인합니다.
+
+```sh
+git clone https://github.com/FromLAtoNY-wodhksqq/bp-ProfilePage.git
+cd bp-ProfilePage
+python3 .github/pages_build.py --build
+```
+
+배포 소스는 `site/`입니다. 준비 스크립트 3.1인 `.github/pages_build.py`가 `site/hugo.toml`과 `site/pages.json`을 읽어 저장소 루트의 `public/`에 빌드하고 프로젝트 주소 경로를 보정합니다. 테마는 `site/themes/template/`에 포함되어 있습니다. 현재 테마의 로컬 빌드는 별도 npm 패키지 설치를 요구하지 않습니다. CI의 추가 도구 버전은 `.github/workflows/hugo-pages.yml`에 지정되어 있습니다.
+
+macOS·Linux에서 로컬 화면을 확인하려면 다음을 실행한 뒤 http://127.0.0.1:8000/ 을 엽니다. 서버 종료는 Ctrl+C입니다. 확인 후 운영 주소로 다시 빌드할 때는 위의 `--build` 명령을 실행합니다.
+
+```sh
+SITE_BASE_URL=http://127.0.0.1:8000/ python3 .github/pages_build.py --build
+python3 -m http.server 8000 --bind 127.0.0.1 --directory public
+```
+
+## 수정과 재배포
+
+- 사이트명·메뉴·언어·소개 설정: `site/hugo.toml`
+- Profile·Contact와 활동·취미 글: `site/content/`
+- 슬라이드 내용: `site/data/carousel/`, 대표 활동: `site/data/activities.json`
+- 홈과 템플릿 보완: `site/layouts/`, 스타일: `site/static/css/custom.css`
+- 실제 운영 주소: `site/pages.json`, `.github-pages.json`, `site/hugo.toml`
+
+수정 후 위 빌드 명령으로 확인하고 변경한 소스 파일을 `git add`한 다음 `git commit -m "실제 변경을 설명하는 메시지"`, `git push origin main`을 실행합니다. GitHub Settings → Pages의 Source는 GitHub Actions로 설정합니다. Actions의 **Deploy Hugo to GitHub Pages**에서 해당 커밋 SHA의 build·deploy 성공을 확인한 후, 공개 사이트에서 수정 내용을 새로고침하여 확인합니다. 생성된 `public/`와 캐시는 커밋하지 않습니다.
+
+---
+
+아래는 Universal 테마 원본 안내입니다.
+
 # Universal Theme for Hugo
 
 [![Code Climate](https://codeclimate.com/github/devcows/hugo-universal-theme/badges/gpa.svg)](https://codeclimate.com/github/devcows/hugo-universal-theme)
