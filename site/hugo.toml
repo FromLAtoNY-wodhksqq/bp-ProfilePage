@@ -445,7 +445,7 @@ pluralizelisttitles = false
     enableRecaptchaInContactForm = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
+    about_us = "<p>개발과 AI agent를 공부하는 최재완입니다. 현재에 늘 최선을 다하며, 후회를 남기지 않는 사람이 되고 싶습니다.</p>"
     copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
 
     # Format dates with Go's time formatting
