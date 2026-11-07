@@ -27,11 +27,11 @@ AI agent를 편리한 도구로 사용하다가 더 깊이 활용하면서 개�
 
 ## 5. 어떤 활동을 했나요?
 
-* KOSA NVIDIA AI agent 과정 수강
-* 호남권 LLM 해커톤 수상
-* 미래에셋 AI 페스티벌 참가
-* 대학 전공 매칭 프로그램 Trail 개발
-* MacsLab 학부 연구생
+* [KOSA NVIDIA AI agent 과정 수강](../blog/kosa-nvidia-ai-agent/)
+* [호남권 LLM 해커톤 수상](../blog/llm-hackathon/)
+* [미래에셋 AI 페스티벌 참가](../blog/mirae-asset-ai-festival/)
+* [대학 전공 매칭 프로그램 Trail 개발](../blog/trail/)
+* [MacsLab 학부 연구생](../blog/macslab/)
 
 ---
 
