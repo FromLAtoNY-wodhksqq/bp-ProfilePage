@@ -392,7 +392,7 @@ pluralizelisttitles = false
 [params]
     viewMorePostLink = "/blog/"
     author = "jaewa__n"
-    defaultKeywords = ["devcows", "hugo", "go"]
+    defaultKeywords = ["최재완", "jaewa__n", "개발", "AI agent", "Python", "C++", "React"]
     mainSections = ["blog"]
     defaultDescription = "개발과 AI agent를 공부하는 최재완의 개인 소개와 활동 기록입니다."
 
