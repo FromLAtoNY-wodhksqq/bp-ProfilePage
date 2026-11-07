@@ -1,0 +1,22 @@
+{{ with hugo.Data.activities }}
+<section id="activities" class="bar background-white" aria-labelledby="activities-title">
+  <div class="container">
+    <div class="heading text-center">
+      <h2 id="activities-title">대표 활동</h2>
+    </div>
+    <div class="row">
+      {{ range $index, $activity := . }}
+      {{ if and (gt $index 0) (eq (mod $index 2) 0) }}
+      <div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>
+      {{ end }}
+      <div class="col-sm-6">
+        <article class="box-simple">
+          <h3>{{ $activity.name }}</h3>
+          <p>{{ $activity.description }}</p>
+        </article>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
