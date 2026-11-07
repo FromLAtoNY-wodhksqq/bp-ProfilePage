@@ -346,7 +346,7 @@ pluralizelisttitles = false
     weight     = 5
 
 [[menu.main]]
-    name       = "FAQ"
+    name       = "소개"
     identifier = "menu.faq"
     url        = "/faq/"
     weight     = 6

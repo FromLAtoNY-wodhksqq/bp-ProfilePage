@@ -1,44 +1,38 @@
 +++
-title = "FAQ"
-description = "Frequently asked questions"
+title = "소개"
+description = "최재완의 자기소개, 개발과 AI agent에 관심을 갖게 된 이유, 사용 기술과 활동을 소개합니다."
 type = "page"
-keywords = ["FAQ","How do I","questions","what if"]
+keywords = ["최재완", "jaewa__n", "개발", "AI agent"]
 +++
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+개발과 AI agent를 공부하는 최재완입니다. jaewa__n이라는 활동명을 사용합니다.
 
-## 1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER?
+## 1. 어떤 사람이 되고 싶은가요?
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+현재에 늘 최선을 다하며, 후회를 남기지 않는 사람이 되고 싶습니다.
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+## 2. 개발에 관심을 갖게 된 이유는 무엇인가요?
 
-## 2. WHAT ARE THE POSTAL RATES?
+구상한 아이디어를 코드로 구현하고 수익화까지 이어갈 수 있다는 점에서 개발에 매력을 느꼈습니다.
 
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+## 3. AI agent에 관심을 갖게 된 이유는 무엇인가요?
 
-## 3. DO YOU SEND OVERSEAS?
+AI agent를 편리한 도구로 사용하다가 더 깊이 활용하면서 개선할 부분에도 관심을 갖게 되었습니다. 이를 계기로 AI agent를 깊이 공부하고 직접 개선하는 방향으로 나아가고 싶습니다.
 
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+## 4. 어떤 기술을 사용해 보았나요?
 
-## 4. WHY ARE YOU MORE EXPENSIVE THAN OTHERS?
+* Python
+* C++
+* React
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+## 5. 어떤 활동을 했나요?
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
-
-## 5. ANOTHER IMPORTANT QUESTION
-
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+* KOSA NVIDIA AI agent 과정 수강
+* 호남권 LLM 해커톤 수상
+* 미래에셋 AI 페스티벌 참가
+* 대학 전공 매칭 프로그램 Trail 개발
+* MacsLab 학부 연구생
 
 ---
 
-> In case you haven't found the answer for your question please feel free to contact us, our customer support will be happy to help you.
+> 활동의 개요는 [홈의 대표 활동 영역](../#activities)에서도 확인할 수 있습니다.
