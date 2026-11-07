@@ -161,12 +161,12 @@ pluralizelisttitles = false
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
 [params.see_more]
-    enable = false
-    icon = "far fa-file-alt"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
+    enable = true
+    icon = "fab fa-github"
+    title = "Contact"
+    subtitle = "공개 프로젝트와 활동 기록은 GitHub에서 확인할 수 있습니다."
+    link_url = "/contact/"
+    link_text = "Contact →"
 
 [params.clients]
     enable = false

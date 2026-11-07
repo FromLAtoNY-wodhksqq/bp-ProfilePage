@@ -1,0 +1,17 @@
+<section id="home-profile" class="bar background-gray" aria-labelledby="home-profile-title">
+  <div class="container">
+    <div class="heading text-center">
+      <h2 id="home-profile-title">Profile</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <h3>최재완 · jaewa__n</h3>
+        <p class="lead">개발 · AI agent</p>
+      </div>
+      <div class="col-md-8">
+        {{ .Site.Params.about_us | safeHTML }}
+        <p><a class="btn btn-template-main" href="{{ "/faq/" | relURL }}">Profile 보기 →</a></p>
+      </div>
+    </div>
+  </div>
+</section>
