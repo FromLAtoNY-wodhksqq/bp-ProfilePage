@@ -48,7 +48,6 @@
 }
 
 #home-profile,
-#activities,
 #home-hobby {
     scroll-margin-top: 80px;
 }
@@ -57,11 +56,25 @@
     margin-bottom: 30px;
 }
 
-#activities .box-simple,
 #home-hobby .box-simple {
     min-height: 0;
     padding: 20px 15px;
     margin-bottom: 30px;
+}
+
+#home-profile .profile-social-links {
+    display: flex;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+#home-profile .profile-social-links .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 20px;
 }
 
 @media (max-width: 767px) {
