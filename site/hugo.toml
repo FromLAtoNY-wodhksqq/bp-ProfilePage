@@ -394,7 +394,7 @@ pluralizelisttitles = false
     author = "jaewa__n"
     defaultKeywords = ["devcows", "hugo", "go"]
     mainSections = ["blog"]
-    defaultDescription = "Site template made by Devcows using Hugo"
+    defaultDescription = "개발과 AI agent를 공부하는 최재완의 개인 소개와 활동 기록입니다."
 
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
