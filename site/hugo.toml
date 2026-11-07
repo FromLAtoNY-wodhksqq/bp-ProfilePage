@@ -16,7 +16,7 @@ pluralizelisttitles = false
 [services]
     # Enable comments by entering your Disqus shortname
     [services.disqus]
-        shortname = "devcows"
+        shortname = ""
     # Enable Google Analytics by entering your tracking code
     [services.googleAnalytics]
         id = ""
