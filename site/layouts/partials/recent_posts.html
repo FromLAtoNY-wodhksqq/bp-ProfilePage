@@ -30,7 +30,7 @@
                             <div class="bg"></div>
                             <div class="text">
                                 <p class="buttons">
-                                    <a href="{{ .Permalink }}" class="btn btn-template-transparent-primary"><i class="fas fa-link"></i> {{ i18n "readMore" }}</a>
+                                    <a href="{{ .Permalink }}" class="btn btn-template-transparent-primary" aria-label="{{ .Title }} — {{ i18n "readMore" }}"><i class="fas fa-link"></i> {{ i18n "readMore" }}</a>
                                 </p>
                             </div>
                         </div>
@@ -52,7 +52,7 @@
                             {{ if not .Site.Params.recent_posts.hide_summary }}
                             <p class="intro">{{ .Summary }}</p>
                             <p class="read-more">
-                              <a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
+                              <a href="{{ .Permalink }}" class="btn btn-template-main" aria-label="{{ .Title }} — {{ i18n "continueReading" }}">{{ i18n "continueReading" }}</a>
                             </p>
                             {{ end }}
                         </div>
