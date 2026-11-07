@@ -82,3 +82,39 @@
 #content [id] {
     scroll-margin-top: 80px;
 }
+
+/* 원본 슬라이드 위에 키보드·터치로 조작 가능한 재생 제어를 둡니다. */
+.home-carousel .carousel-playback {
+    position: absolute;
+    z-index: 2;
+    right: 24px;
+    bottom: 20px;
+}
+
+.home-carousel .carousel-playback[hidden] {
+    display: none;
+}
+
+.home-carousel .carousel-playback .btn {
+    min-height: 44px;
+    min-width: 128px;
+    color: #fff;
+    border-color: #fff;
+    background: rgba(0, 0, 0, 0.28);
+}
+
+.home-carousel .carousel-playback .btn:focus-visible {
+    outline: 3px solid #fff;
+    outline-offset: 3px;
+}
+
+@media (max-width: 767px) {
+    .home-carousel .carousel-playback {
+        right: 16px;
+        bottom: 60px;
+    }
+
+    .home-carousel .owl-item .item {
+        padding-bottom: 112px;
+    }
+}
