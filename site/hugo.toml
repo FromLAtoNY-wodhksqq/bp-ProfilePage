@@ -391,7 +391,7 @@ pluralizelisttitles = false
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
+    author = "jaewa__n"
     defaultKeywords = ["devcows", "hugo", "go"]
     mainSections = ["blog"]
     defaultDescription = "Site template made by Devcows using Hugo"
