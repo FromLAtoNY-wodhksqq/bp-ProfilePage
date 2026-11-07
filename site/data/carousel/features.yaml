@@ -1,11 +1,10 @@
 weight: 2
-title: "46 HTML pages full of features"
+title: "개발과 AI agent"
 description: >
   <ul class="list-style-none">
-     <li>Sliders and carousels</li>
-     <li>4 Header variations</li>
-     <li>Google maps, Forms, Megamenu, CSS3 Animations and much more</li>
-     <li>+ 11 extra pages showing template features</li>
+     <li>아이디어를 코드로 구현하는 개발</li>
+     <li>구현한 아이디어의 수익화</li>
+     <li>AI agent의 깊이 있는 활용</li>
+     <li>사용 과정에서 발견한 개선점 탐구</li>
    </ul>
 image: "img/carousel/template-mac.png"
-href: "faq"
