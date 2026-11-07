@@ -402,12 +402,12 @@ pluralizelisttitles = false
     twitter_site = "" # 본인 X 계정을 연결할 때 입력
     default_sharing_image = "img/sharing-default.png"
 
-    # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
-    enableGoogleMaps = true
-    googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
+    # 지도 기능을 사용하지 않으므로 외부 연결과 데모 위치를 비워 둡니다.
+    enableGoogleMaps = false
+    googleMapsApiKey = ""
 
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    latitude = ""
+    longitude = ""
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "default"
